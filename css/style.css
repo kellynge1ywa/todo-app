@@ -1,0 +1,84 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    /* background: url(/img/images\ \(1\).jpg); */
+}
+
+.app {
+    background: url(/img/images\ \(1\).jpg);
+    background-position: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: #000;
+}
+
+.container {
+    background: rgb(73, 71, 71);
+    /* position: relative; */
+    /* transform: translate(-50%, -50%); */
+    margin: 5rem 0;
+    padding: 2rem;
+    width: 30%;
+    height: 60vh;
+    color: #fff;
+    border-radius: 2rem;
+    align-content: center;
+}
+
+.heading {
+    text-align: center;
+    padding: 1rem;
+    font-size: 2rem;
+    color: rgb(158, 39, 154);
+}
+
+#todoTask {
+    padding: 0.6rem;
+    border-radius: 3rem;
+    border: none;
+    font-size: 1.2rem;
+    margin-left: 4rem;
+    background: transparent;
+    border-bottom: 1px solid #000;
+}
+
+#submitTask {
+    padding: 0.8rem;
+    background: rgb(88, 32, 32);
+    border-radius: 1rem;
+    color: rgb(177, 68, 29);
+}
+
+.item1 {
+    display: flex;
+    align-items: center;
+    padding: 0.5rem 0.4rem;
+    background: rgb(165, 73, 40);
+    margin: 1rem 0;
+    border-radius: 1.5rem;
+}
+
+.item1 span {
+    padding-right: 1.5rem;
+}
+
+.item1 input {
+    padding-left: 1.2rem;
+}
+
+.item1 button {
+    margin-left: 3rem;
+}
+
+.subBtn {
+    /* margin: 1rem; */
+    /* padding-left: 1rem; */
+}
+
+.dltIcon {
+    pointer-events: none;
+}
